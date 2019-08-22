@@ -1,0 +1,41 @@
+    1  ls
+    2  touch test.txt
+    3  ls
+    4  gcc
+    5  apt install gcc
+    6  gcc
+    7  whoami
+    8  hostname
+    9  head
+   10  touch f.txt
+   11  asdfga.txt
+   12  touch asdfgqwerty.txt
+   13  mkdir ~/week1
+   14  cd ~/week1
+   15  gcc
+   16  ls /usr/bin
+   17  ls /usr/bin > week1/ex1.txt
+   18  touch ex1.txt
+   19  ls /usr/bin > week1/ex1.txt
+   20  touch ex1.txt
+   21  ls /usr/bin > ex1.txt
+   22  vim
+   23  vim ex1.txt 
+   24  ls /usr/bin | sort -r > week1/ex1.txt
+   25  ls /usr/bin | sort -r > ex1.txt
+   26  vim ex1.txt 
+   27  ls /usr/bin | sort -r | grep gcc > ex1.txt
+   28  vim ex1.txt 
+   29  ls /usr/lib | grep gcc
+   30  ls /usr/bin | grep gcc
+   31  ls /bin | grep gcc
+   32  gcc
+   33  apt install gcc
+   34  apt get update
+   35  apt-get update
+   36  apt install gcc
+   37  gcc
+   38  ls /usr/bin | sort -r | grep gcc > ex1.txt
+   39  vim ex1.txt 
+   40  ls /usr/bin | sort -r | grep gcc > ex1.txt
+   41  history > ex2.txt
