@@ -1,0 +1,2 @@
+text	   data	    bss	    dec	    hex	filename
+2994	    672	      8	   3674	    e5a	ex6
