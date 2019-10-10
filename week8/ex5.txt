@@ -1,0 +1,2 @@
+Physical adress refers to some RAM'S or hard drive's cell.
+Virtual memory is a realization of segmantation. Each process has its own private segment of memory. Virtual memory refers to physical memory.
