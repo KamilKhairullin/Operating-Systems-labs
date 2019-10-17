@@ -1,0 +1,15 @@
+Sequence that increase hit/miss ratio:
+Let number of frames = 10. 
+1 2 3 4 5 6 7 8 9 
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9 
+1 2 3 4 5 6 7 8 9 
+1 2 3 4 5 6 7 8 9 
+1 2 3 4 5 6 7 8 9
+First 10 inputs will occur miss, because there is no such "elements" in cache. After that
+all inputs will hit, because there are already such "elements" in cache.
+
+Sequence that decrease hit/miss ratio:
+All unique "elements" will have 100% miss rating.
+More unique "elements" we add, more hit/miss ratio decrease.  
