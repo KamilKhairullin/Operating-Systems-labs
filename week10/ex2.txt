@@ -1,0 +1,3 @@
+./week1/file.txt
+./_ex2.txt
+./.local/share/Trash/files/_ex2.txt

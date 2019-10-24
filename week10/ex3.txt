@@ -1,0 +1,6 @@
+chmod a-x _ex3.txt  // 'a' is all, '-' is remove 'x' is execute
+chmod uo+rwx _ex3.txt // 'uo' is user, others; '+' is grant; 'rwx' is read write execute
+chmod g=u _ex3.txt //'g=u' is group equal user
+660 // -rw-rw----  read and write for user and group, other can do nothing
+775 // user and group can read, write and execute. other can read and execute
+777 // -rwxrwxrwx Everyone can read, write and execute
