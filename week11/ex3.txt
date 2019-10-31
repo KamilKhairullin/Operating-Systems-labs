@@ -1,0 +1,9 @@
+1st)
+Hello\nHello\n
+2nd)
+Hello\n\n
+--------
+Hello is printed twice because buffer prints message after '\n' or overflow.
+After fork() child process have copy of buffer.
+
+
