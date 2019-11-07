@@ -1,0 +1,42 @@
+I created file with 116001 symblos
+Modified one is better with small buffer and same with big buffers
+
+gcc copy.c -o copy //initial buffer
+> modified
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+> readonly
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+gcc copy.c -o copy -DBUF_SIZE=120000 //big buffer, do work in one-shot
+> modified
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+> readonly
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+gcc copy.c -o copy -DBUF_SIZE=1024 //small buffer
+> modified
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+> readonly
+real	0m0,007s
+user	0m0,002s
+sys	0m0,000s
+
+gcc copy.c -o copy -DBUF_SIZE=16 // very small buffer
+> modified
+real	0m0,025s
+user	0m0,004s
+sys	0m0,020s
+> readonly
+real	0m0,025s
+user	0m0,000s
+sys	0m0,025s
