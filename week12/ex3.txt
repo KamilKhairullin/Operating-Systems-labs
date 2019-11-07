@@ -6,7 +6,7 @@ gcc copy.c -o copy //initial buffer
 real	0m0,002s
 user	0m0,002s
 sys	0m0,000s
-> readonly
+> standart
 real	0m0,002s
 user	0m0,002s
 sys	0m0,000s
@@ -16,7 +16,7 @@ gcc copy.c -o copy -DBUF_SIZE=120000 //big buffer, do work in one-shot
 real	0m0,001s
 user	0m0,001s
 sys	0m0,000s
-> readonly
+> standart
 real	0m0,001s
 user	0m0,001s
 sys	0m0,000s
@@ -26,7 +26,7 @@ gcc copy.c -o copy -DBUF_SIZE=1024 //small buffer
 real	0m0,002s
 user	0m0,001s
 sys	0m0,000s
-> readonly
+> standart
 real	0m0,007s
 user	0m0,002s
 sys	0m0,000s
@@ -36,7 +36,7 @@ gcc copy.c -o copy -DBUF_SIZE=16 // very small buffer
 real	0m0,025s
 user	0m0,004s
 sys	0m0,020s
-> readonly
+> standart
 real	0m0,025s
 user	0m0,000s
 sys	0m0,025s
