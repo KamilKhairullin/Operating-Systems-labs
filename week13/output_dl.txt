@@ -1,0 +1,5 @@
+Process is deadlocked 1
+Process is deadlocked 2
+Process is deadlocked 3
+Process is deadlocked 4
+Process is deadlocked 5
