@@ -1,0 +1,6 @@
+recovery - process noticing it is highly dependent on the nature of the resource.
+avoidance - uses when we cannot use recovery and prevention 
+prevention - If we can ensure that at least one of these conditions is never satisfied, then deadlocks will be structurally impossible
+Prevention have poor resource utilization.
+
+
